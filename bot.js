@@ -297,7 +297,7 @@ client.on('message', function(msg) {
             .setAuthor(client.user.username,client.user.avatarURL)
             .setThumbnail(client.user.avatarURL)
             .setColor('RANDOM')
-            .setTitle('``INFO 3bker Community ©`` ')
+            .setTitle('``INFO ฝк³ ,L̰̲̭ǘ̾̿X̠̝̭y̎͆͛🔥 ❥ ©`` ')
             .addField('``My Ping``' , [`${Date.now() - message.createdTimestamp}` + 'MS'], true)
             .addField('``RAM Usage``', `[${(process.memoryUsage().rss / 1048576).toFixed()}MB]`, true)
             .addField('``servers``', [client.guilds.size], true)
@@ -307,7 +307,7 @@ client.on('message', function(msg) {
             .addField('``My ID``' , `[ ${client.user.id} ]` , true)
 			      .addField('``My Prefix``' , `[ ! ]` , true)
 			      .addField('``My Language``' , `[ Java Script ]` , true)
-			      .setFooter('By | 3bker')
+			      .setFooter('By |ฝк³ ,L̰̲̭ǘ̾̿X̠̝̭y̎͆͛🔥 ❥ ')
     })
 }
 });
